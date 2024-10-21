@@ -4,20 +4,15 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/*Header + wyszukiwanie filmów na danej stronie*/}
+
+      {/*Header środkowy: nieaktywne linki (to co na pomarańczowo, jeden link aktywny odsyłający do głównej strony CinemaCity)*/}
+
+      {/*Miejsce kina.*/}
+
+      {/*Slider z premierami*/}
+
+      {/*Wybór filmów z czasami:*/}
     </div>
   );
 }
