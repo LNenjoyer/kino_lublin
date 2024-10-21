@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -6,13 +5,16 @@ function App() {
     <div className="App">
       {/*Header + wyszukiwanie filmów na danej stronie*/}
 
-      {/*Header środkowy: nieaktywne linki (to co na pomarańczowo, jeden link aktywny odsyłający do głównej strony CinemaCity)*/}
+      <div className="linki">
+        <div></div>
+      </div>
 
       {/*Miejsce kina.*/}
 
       {/*Slider z premierami*/}
 
       {/*Wybór filmów z czasami:*/}
+
     </div>
   );
 }
