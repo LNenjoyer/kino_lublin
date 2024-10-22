@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import CinemaLocation from './CinemaLocation';
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
 
       {/*Header środkowy: nieaktywne linki (to co na pomarańczowo, jeden link aktywny odsyłający do głównej strony CinemaCity)*/}
 
-      {/*Miejsce kina.*/}
+      <CinemaLocation />
 
       {/*Slider z premierami*/}
 
