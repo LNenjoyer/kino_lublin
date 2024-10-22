@@ -3,17 +3,21 @@ import "./DisplayFilms.css";
 function FilmList(props){
     return(
         <div className="FilmListEntry">
-            <div className='Poster'>
-                <img src={props.photo}/>
+            <div className='FilmListPoster'>
+                <img src={props.photo} id='photo'/>
             </div>
-            <div className="Info">
-                <div className='Title'><p>{props.title}</p></div>
-                <div className='Question'><img
-                    src="https://clipartcraft.com/images/question-mark-transparent-person.png"/></div>
-                <div className='Genre'><p>{props.genre}</p></div>
-                <div className='Playtime'><p>{props.playtime}</p></div>
-                <div className='Time'><p>{props.time}</p></div>
-                <div className='View'><p>{props.view}</p></div>
+
+            <div className="FilmListInfo">
+                <div className='FilmListInfoTitle'><b>{props.title}</b></div>
+                <div className='FilmListMidBar'>
+                    {/*<div className='FilmListInfoQuestion'><img  id='photo2'*/}
+                    {/*    src="https://clipartcraft.com/images/question-mark-transparent-person.png"/></div>*/}
+                    <div className='FilmListInfoGenre'><p>{props.genre}&emsp;|</p></div>
+                    <div className='FilmListInfoPlaytime'><p>&emsp;{props.playtime}</p></div>
+                </div>
+                <br/>
+                <div className='FilmListInfoView'><b>{props.view}</b></div>
+                <div className='FilmListInfoTime'><b>{props.time}</b></div>
             </div>
         </div>
     );
