@@ -1,8 +1,7 @@
 import './App.css';
-
+import DisplayFilms from './DisplayFilms.jsx';
 import Slideshow from './slider.jsx';
 import CinemaLocation from './CinemaLocation';
-
 
 function App() {
   return (
@@ -28,18 +27,12 @@ function App() {
 
       <CinemaLocation />
 
-
       {/*Slider z premierami*/}
-        <div id="Slider">
       <Slideshow/>
-    </div>
+                  
       {/*Wybór filmów z czasami:*/}
-
-        {/*Slider z premierami*/}
-
-        {/*Wybór filmów z czasami:*/}
+      <DisplayFilms/>
     </div>
-  );
-}
-
-export default App;
+      );
+      }
+      export default App;
