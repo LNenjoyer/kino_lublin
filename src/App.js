@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-
+import DisplayFilms from './DisplayFilms.jsx';
 function App() {
   return (
     <div className="App">
@@ -13,8 +13,9 @@ function App() {
       {/*Slider z premierami*/}
 
       {/*Wybór filmów z czasami:*/}
+      <DisplayFilms/>
     </div>
-  );
-}
+      );
+      }
 
-export default App;
+      export default App;
