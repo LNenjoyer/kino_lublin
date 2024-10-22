@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Slideshow from './slider.jsx';
 function App() {
   return (
     <div className="App">
@@ -11,7 +11,7 @@ function App() {
       {/*Miejsce kina.*/}
 
       {/*Slider z premierami*/}
-
+      <Slideshow/>
       {/*Wybór filmów z czasami:*/}
     </div>
   );
