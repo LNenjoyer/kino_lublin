@@ -1,4 +1,5 @@
 import './App.css';
+import CinemaLocation from './CinemaLocation';
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
             </div>
         </div>
 
-        {/*Miejsce kina.*/}
+      <CinemaLocation />
 
         {/*Slider z premierami*/}
 
