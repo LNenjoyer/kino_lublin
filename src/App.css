@@ -1,9 +1,10 @@
+
 .App {
   text-align: center;
 }
 
 .linki {
-  height: 100px;
+  height: 90px;
   background-color: darkorange;
   width: 100%;
   align-content: center;
@@ -20,12 +21,13 @@
   a:hover {
     color: white;
   }
-
+  .link:first-child{
+    border-left: 0 solid gray;
+  }
   .link {
     align-items: center;
     float: left;
     border-left: 1px solid gray;
-    border-right: 1px solid gray;
     padding: 15px;
   }
 
