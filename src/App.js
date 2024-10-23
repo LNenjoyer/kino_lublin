@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       {/*Header + wyszukiwanie filmów na danej stronie*/}
-
+      <Header />
        
       <Linki/>
 
