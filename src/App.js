@@ -11,9 +11,9 @@ function App() {
       {/*Miejsce kina.*/}
 
       {/*Slider z premierami*/}
-        <div id="Slider">
+
       <Slideshow/>
-    </div>
+
       {/*Wybór filmów z czasami:*/}
     </div>
   );
