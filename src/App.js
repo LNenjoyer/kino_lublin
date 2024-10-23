@@ -3,6 +3,7 @@ import DisplayFilms from './DisplayFilms.jsx';
 import Slideshow from './slider.jsx';
 import CinemaLocation from './CinemaLocation';
 import Linki from './linki';
+import Header from './Header';
 function App() {
   return (
     <div className="App">
