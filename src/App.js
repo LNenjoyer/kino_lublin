@@ -14,7 +14,11 @@ function App() {
       <CinemaLocation />
 
       {/*Slider z premierami*/}
+
+
       <Slideshow/>
+
+
                   
       {/*Wybór filmów z czasami:*/}
       <DisplayFilms/>
