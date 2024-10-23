@@ -12,6 +12,9 @@
 }
 .FilmBanner{
     display: inline-block;
+        background-color: white;
+    width: 100%;
+    padding-left: 40%;
 }
 .FilmPhoto{
     height: 100%;
